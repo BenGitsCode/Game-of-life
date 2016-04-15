@@ -1,5 +1,7 @@
 'pry'
+
 require './genius/cell'
+
 class World
   def initialize(width, height)
     @cells = []
